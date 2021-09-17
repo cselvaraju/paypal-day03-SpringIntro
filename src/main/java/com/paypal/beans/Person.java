@@ -1,8 +1,12 @@
 package com.paypal.beans;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Person {
 	private String name;
 	private int age;
+	
 	private Address address;
 	
 	public Person() {
